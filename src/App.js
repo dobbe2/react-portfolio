@@ -9,7 +9,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <h1>Future site of React Portfolio</h1>
         <Route exact path="/" component={Home}/>
         <Route exact path="/home" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
