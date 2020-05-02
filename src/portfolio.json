@@ -1,37 +1,38 @@
 [
     {
-      "id": 1,
       "name": "Local Tunes",
       "link": "https://kindrakinney.github.io/Local-Tunes/",
       "repo": "https://github.com/KindraKinney/Local-Tunes",
       "image": "https://i.imgur.com/FNo3WKj.jpg"
     },
     {
-        "id": 2,
         "name": "P.A.R.",
         "link": "https://intense-beach-33729.herokuapp.com",
         "repo": "https://github.com/dhens/Paranormal-Activity-Reporter",
-        "image": "https://i.imgur.com/T0tHDNw.png"
+        "image": "https://i.imgur.com/ExhtDtj.png"
       },
       {
-        "id": 1,
         "name": "Eat Da Burger",
         "link": "https://whispering-fortress-69757.herokuapp.com/",
         "repo": "https://github.com/dobbe2/burger",
         "image": "https://i.imgur.com/IptB13Q.jpg"
       },
       {
-        "id": 1,
         "name": "Weather Dashboard",
         "link": "https://dobbe2.github.io/weather-dashboard/",
         "repo": "https://github.com/dobbe2/weather-dashboard",
         "image": "https://i.imgur.com/JoaoZ18.jpg"
       },
       {
-        "id": 1,
         "name": "Local Tunes",
         "link": "https://dobbe2.github.io/day-planner/",
         "repo": "https://github.com/dobbe2/day-planner",
         "image": "https://i.imgur.com/f9MO1QE.jpg"
+      },
+      {
+          "name": "Employee Directory",
+          "link": "https://dobbe2.github.io/reactEmployeeDirectory/",
+          "repo": "https://github.com/dobbe2/reactEmployeeDirectory",
+          "image": "https://i.imgur.com/uXYgICD.png"
       }
 ]
