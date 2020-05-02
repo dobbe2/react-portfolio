@@ -1,14 +1,37 @@
-import React from "react";
+import React, { Component } from "react";
 import Footer from "../components/footer"
 import Header from "../components/header"
 import "../assets/style.css"
+import projects from "../portfolio.json";
+import Project from "../components/project"
 
-function Portfolio() {
+class Portfolio extends Component {
+
+        state = { projects };
+
+    render() {
   return (
     <div>
     <Header />
       <h1>Portfolio</h1>
       <div className="cards-list">
+        {this.state.projects.map(projects => (
+      <Project
+        name={projects.name}
+        image={projects.image}
+        link={projects.link}
+        repo={projects.repo}
+        />))}
+        </div>
+      <Footer />
+    </div>
+  );
+  }
+}
+
+export default Portfolio;
+
+{/* <div className="cards-list">
         <div className="card-link">
             <div className="card 1"> 
                 <div className="card_image"><a href="https://kindrakinney.github.io/Local-Tunes/" target="_blank"><img src={require("../components/images/localTunes.jpg")}  style={{width: "100%"}} /></a> 
@@ -73,10 +96,4 @@ function Portfolio() {
             <br />
             <a href="https://github.com/dobbe2/day-planner" className="personal-link port-link"><p>GitHub repository</p></a>
         </div>
-    </div>
-      <Footer />
-    </div>
-  );
-}
-
-export default Portfolio;
+    </div> */}
