@@ -12,8 +12,9 @@ function Contact() {
     <h4><a href="mailto:dobbe2@gmail.com" className="personal-link">Email Address : dobbe2@gmail.com</a></h4>
     <br />
 
-    <div className="container-form">
-        <form action="action_page.php">
+    <div className="container-form" style={{width:"100%", height:"900px"}}>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe_J3KQrj_nF6-NuLuGiamKNhVelGkvAK3NAHXofC3kk4aYlg/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        {/* <form action="action_page.php">
       
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name.." />
@@ -26,7 +27,7 @@ function Contact() {
       
           <input type="button" value="Submit" /><button>Submit</button>
       
-        </form>
+        </form> */}
       </div>
       <Footer />
     </div>

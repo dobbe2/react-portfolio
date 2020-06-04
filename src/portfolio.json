@@ -1,5 +1,11 @@
 [
     {
+      "name": "Rambler Hiking App",
+      "link": "https://gorambler.herokuapp.com/",
+      "repo": "https://github.com/dhens/Rambler",
+      "image": "https://i.imgur.com/CaS49FW.png?1"
+    },
+    {
       "name": "Local Tunes",
       "link": "https://kindrakinney.github.io/Local-Tunes/",
       "repo": "https://github.com/KindraKinney/Local-Tunes",
@@ -22,12 +28,6 @@
         "link": "https://dobbe2.github.io/weather-dashboard/",
         "repo": "https://github.com/dobbe2/weather-dashboard",
         "image": "https://i.imgur.com/JoaoZ18.jpg"
-      },
-      {
-        "name": "Local Tunes",
-        "link": "https://dobbe2.github.io/day-planner/",
-        "repo": "https://github.com/dobbe2/day-planner",
-        "image": "https://i.imgur.com/f9MO1QE.jpg"
       },
       {
           "name": "Employee Directory",

@@ -64,6 +64,15 @@
     max-width: 250px;
     margin-top: 50px;
     margin-bottom: 50px;
+    transition: 0.4s;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+
+  }
+
+  #port-image:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
   }
   
   .card {
@@ -163,6 +172,9 @@
       -5px -5px 30px 15px rgba(0,0,0,0.22);
   }
   
+  #project-card:hover {
+    transform: scale(1.1,1.1)
+  }
   /*Contact me Form Styles*/
   input[type=text], select, textarea {
     width: 100%; 
@@ -190,6 +202,6 @@
   
   .container-form {
     border-radius: 5px;
-    background-color: #f1f1f1;
+    background-color:white;
     padding: 20px;
   }

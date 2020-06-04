@@ -5,7 +5,7 @@ function Project(props) {
     return (
         
                 <div className="card-link">
-                    <div className="card 1"> 
+                    <div id="project-card" className="card 1"> 
                         <div className="card_image"><a href={props.link} target="_blank"><img src={props.image}  style={{width: "100%"}} /></a> 
                         </div>
                     </div>
